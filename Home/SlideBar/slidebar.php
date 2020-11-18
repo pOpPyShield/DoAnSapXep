@@ -10,19 +10,19 @@
                             </ol>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                    <img src="/doan/Public/Asset/Img/banner_1.jpg" class="d-block h-100 w-100" alt="...">
+                                    <img src="/DoAnSapXep/Public/Asset/Img/banner_1.jpg" class="d-block h-100 w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/doan/Public/Asset/Img/banner_2.jpg" class="d-block h-100 w-100" alt="...">
+                                    <img src="/DoAnSapXep/Public/Asset/Img/banner_2.jpg" class="d-block h-100 w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/doan/Public/Asset/Img/banner_3.jpg" class="d-block h-100 w-100" alt="...">
+                                    <img src="/DoAnSapXep/Public/Asset/Img/banner_3.jpg" class="d-block h-100 w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/doan/Public/Asset/Img/banner_4.jpg" class="d-block h-100 w-100" alt="...">
+                                    <img src="/DoAnSapXep/Public/Asset/Img/banner_4.jpg" class="d-block h-100 w-100" alt="...">
                                 </div>
                                 <div class="carousel-item">
-                                    <img src="/doan/Public/Asset/Img/banner_5.jpg" class="d-block h-100 w-100" alt="...">
+                                    <img src="/DoAnSapXep/Public/Asset/Img/banner_5.jpg" class="d-block h-100 w-100" alt="...">
                                 </div>
                             </div>
                             <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

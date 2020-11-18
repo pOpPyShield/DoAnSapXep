@@ -1,8 +1,7 @@
 <?php 
 
-    require_once '../Core/Config.php';
-    require_once '../Core/Init.php';
-    session_start();
+    require_once 'config.php';
+    require_once '../Core/init.php';
     class SuperAdmin{
         public $_pdo;
         public $_result;

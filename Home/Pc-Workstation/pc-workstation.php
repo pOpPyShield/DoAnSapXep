@@ -7,7 +7,7 @@
                     <!-----1-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/pc-workstation-1.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/pc-workstation-1.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT G-Creator C301</a>
                                 <div class="price-del">
@@ -20,7 +20,7 @@
                     <!-----2-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/pc-workstation-2.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/pc-workstation-2.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT G-Creator C303</a>
                                 <div class="price-del">
@@ -33,7 +33,7 @@
                     <!-----3-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/pc-workstation-3.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/pc-workstation-3.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT G-Creator C304</a>
                                 <div class="price-del">
@@ -46,7 +46,7 @@
                     <!-----4-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/pc-workstation-4.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/pc-workstation-4.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT G-Station K301
                                 </a>
@@ -60,7 +60,7 @@
                     <!-----5-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/pc-workstation-5.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/pc-workstation-5.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT G-Creator C501</a>
                                 <div class="price-del">
@@ -73,7 +73,7 @@
                     <!-----6-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/pc-workstation-6.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/pc-workstation-6.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT G-Station K302</a>
                                 <div class="price-del">
@@ -86,7 +86,7 @@
                     <!-----7-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/pc-workstation-7.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/pc-workstation-7.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT G-Creator C305</a>
                                 <div class="price-del">
@@ -99,7 +99,7 @@
                     <!-----8-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/pc-workstation-8.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/pc-workstation-8.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT G-Station K303</a>
                                 <div class="price-del">

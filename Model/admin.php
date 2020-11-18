@@ -1,8 +1,7 @@
 <?php 
 
     require_once 'Config.php';
-    require_once './Core/Init.php';
-    session_start();
+    require_once '../Core/init.php';
     class Admin{
         public $_pdo;
         public $_result;

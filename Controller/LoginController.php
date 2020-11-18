@@ -14,15 +14,10 @@
                 $superadmin = new superAdmin();
                 if($user->login($name1, $pwd1) != false) {
                     //User Model
-                    $UserName = $user->getUserName();
-                    $UserID = $user->getResultQuery("UserId");
-                    $session = new Session();
-                    $session->put("UserName", $UserName);
-                    $session->put("id", $UserID);
                     if($_SESSION['level'] == 'user' && $_SESSION['is_login'] == true) {
                         header('Location: ../Home/?login=success');
                     }  
-                    
+                    //Success
                 } elseif($object->login($name, $pwd)) {
                     //Admin model
                     $UserAdmin = $object->getUserName();

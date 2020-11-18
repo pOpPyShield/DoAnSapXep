@@ -3,7 +3,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-3.5">
-                        <a href="#" class="logo"><img src="/doan/Public/Asset/Img/LOGO.png" alt="logo"></a>
+                        <a href="" class="logo"><img src="/DoAnSapXep/Public/Asset/Img/LOGO.png" alt="logo"></a>
                     </div>
                     <div class="col-4" id="search">
                         <form>
@@ -36,15 +36,15 @@
 
                             if($imgCheck->checkImg($_SESSION['id']) == true) {
                                 $_SESSION['ImgName'] = $imgCheck->getImgName();
-                                echo '<img class="img_user" src="Uploads/profile'. $imgCheck->getUserID() . $imgCheck->getImgName() . '.' . $imgCheck->getImgType().'">';
+                                echo '<img class="img_user" src="/DoAnSapXep/Uploads/profile'. $imgCheck->getUserID() . $imgCheck->getImgName() . '.' . $imgCheck->getImgType().'">';
                             } else {
-                                echo '<img class="img_user" src="Uploads/profile'. $imgCheck->getImgName() .'.'. $imgCheck->getImgType().'">';
+                                echo '<img class="img_user" src="/DoAnSapXep/Uploads/profile'. $imgCheck->getImgName() .'.'. $imgCheck->getImgType().'">';
                             }
                     ?>
                                 </button>
                                 <div class="dropdown-content">
-                                <a href="?action=upload">Sửa ảnh</a>
-                                <a href="?action=logout">Đăng xuất</a>
+                                <a href="?action=Upload">Sửa ảnh</a>
+                                <a href="?action=Logout">Đăng xuất</a>
                             </div>
                             <?php echo '<h1 class="User_name">'.$_SESSION['UserName'].'</h1>'; ?>
                             

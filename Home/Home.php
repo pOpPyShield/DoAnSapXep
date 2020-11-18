@@ -1,8 +1,23 @@
 
-<?php session_start(); ?>
 <?php require_once '../Header/header.php';?>
-<?php require_once 'ActionInHome.php';?>
+
 <section class="Main">
+<?php if(isset($_GET['login'])=="success") {?>
+        <script>alert("Login Success!!!!");</script>
+<?php }?>
+
+<?php if(isset($_GET['logout']) == "success") {?>
+        <script>alert("Logout success");</script>
+<?php }?>
+
+<?php if(isset($_GET['upload']) == "success") {?>
+        <script>alert("upload success");</script>
+<?php }?>
+
+<?php if(isset($_GET['upload']) == "failed") {?>
+        <script>alert("Upload failed");</script>
+<?php }?>
+
         <div class="container">
             <div class="row">
                 <?php include_once './LeftNav/leftnav.php';?>

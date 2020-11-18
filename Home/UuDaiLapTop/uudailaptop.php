@@ -7,7 +7,7 @@
                     <!-----1-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/laptop-1.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/laptop-1.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Laptop gaming Acer Nitro 5 AN515 55 5923</a>
                                 <div class="price-del">
@@ -20,7 +20,7 @@
                     <!-----2-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/laptop-2.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/laptop-2.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Laptop Gaming MSI GF63 Thin 9SCSR 846VN</a>
                                 <div class="price-del">
@@ -33,7 +33,7 @@
                     <!-----3-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/laptop-3.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/laptop-3.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Laptop Gaming MSI GF63 Thin 10SCSR 830VN</a>
                                 <div class="price-del">
@@ -46,7 +46,7 @@
                     <!-----4-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/laptop-4.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/laptop-4.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Laptop Gaming MSI GF65 Thin 10SDR 623VN</a>
                                 <div class="price-del">
@@ -59,7 +59,7 @@
                     <!-----5-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/laptop-5.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/laptop-5.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Laptop gaming Acer Nitro 5 AN515 55 77P9</a>
                                 <div class="price-del">
@@ -72,7 +72,7 @@
                     <!-----6-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/laptop-6.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/laptop-6.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Laptop gaming Acer Nitro 5 AN515 55 55E3</a>
                                 <div class="price-del">
@@ -85,7 +85,7 @@
                     <!-----7-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/laptop-7.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/laptop-7.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Laptop Gaming ASUS ROG Zephyrus G15 GA502IU AL007T
                                 </a>
@@ -99,7 +99,7 @@
                     <!-----8-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/laptop-8.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/laptop-8.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Laptop Gaming MSI GL65 Leopard 10SDK 242VN</a>
                                 <div class="price-del">

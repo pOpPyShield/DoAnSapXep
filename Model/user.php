@@ -1,7 +1,7 @@
 <?php 
 
     require_once 'Config.php';
-    require_once './Core/Init.php';
+    require_once '../Core/init.php';
     class User{
         public $_pdo;
         public $_result;
@@ -39,7 +39,7 @@
              $st = $this->_pdo->prepare("INSERT INTO user(UserName, Password, Email) VALUES (?, ?, ?)");
              $st->bindParam(1, $username);
              $st->bindParam(2, $pwd1);
-             $st->bindParam(3, $email1);
+             $st->bindParam(3, $Email);
              //If execute success, then go to if block
              if($st->execute()) {
                  $st->closeCursor();
@@ -47,8 +47,8 @@
                 $st2 = $this->_pdo->prepare("SELECT * FROM user where UserName = ?");
                 $st2->bindParam(1, $username);
                 $st2->execute();
-                $st2->closeCursor();
                 $this->_resultUserReg = $st2->fetch();
+                $st2->closeCursor();
                 //Set value for prepare insert to profileimg table
                 $userid = $this->_resultUserReg['UserID'];
                 $status=1;
@@ -77,6 +77,8 @@
                 if(password_verify($pwd, $this->_result['Password'])) {
                     $this->username = $this->_result['UserName'];
                     //$this->_userID = $this->_result['UserID'];
+                    $_SESSION['id'] = $this->_result['UserID'];
+                    $_SESSION['UserName'] = $this->_result['UserName'];
                     $_SESSION['level'] = 'user';
                     $_SESSION['is_login'] = true;
                     return true;

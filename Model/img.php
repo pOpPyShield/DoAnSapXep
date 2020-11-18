@@ -56,8 +56,7 @@
                 if($fileError == 0) {
                     if($fileSize<100000) {
                         $fileNameNew = "profile". $userID .$fileExt[0]."." .$fileActualExt;
-                        $fileDestination = 'uploads/'.$fileNameNew; 
-                        print_r($fileDestination);
+                        $fileDestination = '/DoAnSapXep/Uploads/'.$fileNameNew; 
                         move_uploaded_file($fileTmpName, $fileDestination);
                         // Set status
                         $stat = 0;

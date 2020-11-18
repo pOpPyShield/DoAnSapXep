@@ -21,7 +21,7 @@
                     <!-----2-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/public/Asset/Img/ban-phim-2.jpg" class="model" alt="n-p1">
+                            <img src="/doan/Public/Asset/Img/ban-phim-2.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bàn phím Gaming DareU LK145 USB</a>
                                 <div class="price-del">
@@ -35,7 +35,7 @@
                     <!-----3-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/public/Asset/Img/ban-phim-3.jpg" class="model" alt="n-p1">
+                            <img src="/doan/Public/Asset/Img/ban-phim-3.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT Mystic</a>
                                 <div class="price-del">
@@ -48,7 +48,7 @@
                     <!-----4-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/public/Asset/Img/ban-phim-4.jpg" class="model" alt="n-p1">
+                            <img src="/doan/Public/Asset/Img/ban-phim-4.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bộ Bàn Phím Chuột Giả Cơ Rapoo V100S</a>
                                 <div class="price-del">

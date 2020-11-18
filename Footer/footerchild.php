@@ -2,7 +2,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <a href="#" class="logo"><img src="/doan/Public/Asset/Img/LOGO.png" alt="logo"></a>
+                    <a href="#" class="logo"><img src="/DoAnSapXep/Public/Asset/Img/LOGO.png" alt="logo"></a>
                     <p class="title-footer-1">Luôn tận tâm phục vụ</p>
                 </div>
                 <div class="col-5">

@@ -2,6 +2,9 @@
     <!-------Account-->
     <!--<link rel="stylesheet" type="text/css" href="Public/Asset/Style/account_log.css">-->
     <div class="account-page">
+        <?php if(isset($_GET['status'])=="fail"){?>
+            <script>alert('Fail reg, try again');</script>
+        <?php }?>
         <div class="container">
             <div class="form-container">
                 <div class="form-btn">
@@ -38,7 +41,7 @@
 
                 </form>
             </div>
-            <script defer src="/doan/Public/Asset/Js/validate_reg.js"></script>
+            <script defer src="/DoAnSapXep/Public/Asset/Js/validate_reg.js"></script>
         </div>
     </div>
     <!-------END-Account-->
