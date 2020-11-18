@@ -1,0 +1,126 @@
+.account-page {
+    position: relative;
+    height: 100%;
+    background: #ecf0f1;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.form-container {
+    width: 600px;
+    height: 600px;
+    background: white;
+    position: relative;
+    text-align: center;
+    margin: auto;
+    margin-top: 5px;
+    overflow: hidden;
+    box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.1);
+}
+
+.btn-login {
+    border: none;
+    background: #16a085;
+    padding: 5px 10px;
+    border-radius: 2rem;
+    color: white;
+}
+
+.btn-login:hover {
+    background: #FF523b;
+}
+
+.form-container span {
+    font-weight: bold;
+    padding: 0 10px;
+    margin-top: 2rem;
+    color: #555;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.form-btn {
+    display: inline-block;
+}
+
+.form-container form {
+    max-width: 300px;
+    padding: 0 20px;
+    position: absolute;
+    top: 130px;
+    transition: transform 1s;
+}
+
+#LoginForm input {
+    width: 100%;
+    height: 2.2rem;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-family: inherit;
+    border: 2px solid #7f8c8d;
+}
+
+#RegForm input {
+    width: 100%;
+    height: 2.2rem;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 0 10px;
+    font-family: inherit;
+    border: 1px solid #7f8c8d;
+}
+
+#user_error,
+#pwd_error,
+#user_error_reg,
+#email_error_reg,
+#pwd_error_reg,
+#pwd2_error_reg {
+    font-size: 14px;
+    float: left;
+    color: red;
+}
+
+form .btn-login {
+    width: 100%;
+    border: none;
+    cursor: pointer;
+    padding: 10px 0;
+    margin-top: 1rem;
+}
+
+#LoginForm {
+    left: 160px;
+    padding-bottom: 5px;
+    text-decoration: solid;
+}
+
+#LoginForm a {
+    float: right;
+}
+
+#RegForm {
+    right: -300px;
+}
+
+form a {
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+form label {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#Indicator {
+    width: 100px;
+    height: 3px;
+    border: none;
+    margin-top: 8px;
+    background: #FF523b;
+    transform: translateX(0px);
+    transition: transform 1s;
+}
