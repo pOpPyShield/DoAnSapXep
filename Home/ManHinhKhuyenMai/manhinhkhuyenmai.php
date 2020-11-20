@@ -4,7 +4,7 @@
                     </p>
                 </div>
                 <ul id="autoWidth4" class="cs-hidden4">
-                    <!-----1-->
+                    
                     <li class="item-a">
                         <div class="box">
                             <img src="/DoAnSapXep/Public/Asset/Img/man-hinh-1.jpg" class="model" alt="n-p1">
@@ -17,7 +17,7 @@
                             </div>
                         </div>
                     </li>
-                    <!-----2-->
+                    
                     <li class="item-a">
                         <div class="box">
                             <img src="/DoAnSapXep/Public/Asset/Img/man-hinh-2.jpg" class="model" alt="n-p1">
@@ -30,7 +30,7 @@
                             </div>
                         </div>
                     </li>
-                    <!-----3-->
+                    
                     <li class="item-a">
                         <div class="box">
                             <img src="/DoAnSapXep/Public/Asset/Img/man-hinh-3.jpg" class="model" alt="n-p1">
@@ -43,7 +43,7 @@
                             </div>
                         </div>
                     </li>
-                    <!-----4-->
+                    
                     <li class="item-a">
                         <div class="box">
                             <img src="/DoAnSapXep/Public/Asset/Img/man-hinh-4.jpg" class="model" alt="n-p1">
@@ -56,7 +56,7 @@
                             </div>
                         </div>
                     </li>
-                    <!-----5-->
+                    
                     <li class="item-a">
                         <div class="box">
                             <img src="/DoAnSapXep/Public/Asset/Img/man-hinh-5.jpg" class="model" alt="n-p1">
@@ -69,7 +69,6 @@
                             </div>
                         </div>
                     </li>
-                    <!-----6-->
                     <li class="item-a">
                         <div class="box">
                             <img src="/DoAnSapXep/Public/Asset/Img/man-hinh-6.jpg" class="model" alt="n-p1">
@@ -82,7 +81,6 @@
                             </div>
                         </div>
                     </li>
-                    <!-----7-->
                     <li class="item-a">
                         <div class="box">
                             <img src="/DoAnSapXep/Public/Asset/Img/man-hinh-7.jpg" class="model" alt="n-p1">
@@ -95,7 +93,6 @@
                             </div>
                         </div>
                     </li>
-                    <!-----8-->
                     <li class="item-a">
                         <div class="box">
                             <img src="/DoAnSapXep/Public/Asset/Img/man-hinh-8.jpg" class="model" alt="n-p1">

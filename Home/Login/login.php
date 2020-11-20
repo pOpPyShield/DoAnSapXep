@@ -1,7 +1,4 @@
 <?php include_once '../Header/header.php';?>
-    
-    <!-------Account-->
-    <!--<link rel="stylesheet" type="text/css" href="Public/Asset/Style/account_log.css">-->
     <div class="account-page">
         <?php if(isset($_GET['status'])=="success"){?>
             <script>alert('Login with your register');</script>
@@ -46,7 +43,6 @@
             <script defer src="/DoAnSapXep/Public/Asset/Js/validate_reg.js"></script>
         </div>
     </div>
-    <!-------END-Account-->
 
 
  <?php include_once '../Footer/footer.php' ?>

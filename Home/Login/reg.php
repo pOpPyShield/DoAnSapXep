@@ -1,6 +1,4 @@
 <?php include_once '../Header/header.php';?>
-    <!-------Account-->
-    <!--<link rel="stylesheet" type="text/css" href="Public/Asset/Style/account_log.css">-->
     <div class="account-page">
         <?php if(isset($_GET['status'])=="fail"){?>
             <script>alert('Fail reg, try again');</script>
