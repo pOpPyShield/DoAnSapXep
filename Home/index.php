@@ -47,7 +47,11 @@
             require_once '../Home/Upload/upload.php';
         break;
         case "uploadImage": 
-            require_once '../Home/Upload/HandleUpload.php';
+            $file = $_FILES['file'];
+            $ValueSubmit = $_POST['submitUpload'];
+            $Upload = new UploadController();
+            $Upload->UploadImage($ValueSubmit, $file);
+        break;
         default: 
         break;
     }

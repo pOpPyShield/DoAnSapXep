@@ -1,6 +1,5 @@
 
 <?php require_once '../Header/header.php';?>
-
 <section class="Main">
 <?php if(isset($_GET['login'])=="success") {?>
         <script>alert("Login Success!!!!");</script>
@@ -11,14 +10,17 @@
 <?php }?>
 
 <?php if(isset($_GET['upload']) == "success") {?>
-        <script>alert("upload success");</script>
+        <script>alert("Upload successs!!!!!!");</script>
 <?php }?>
 
-<?php if(isset($_GET['upload']) == "failed") {?>
-        <script>alert("Upload failed");</script>
-<?php }?>
+<?php //if(isset($_GET['upload']) == "failed") {?>
+        
+<?php //}?>
 
         <div class="container">
+            <!-- <script>alert("upload success");</script>
+                <script>alert("Upload failed");</script>
+            -->
             <div class="row">
                 <?php include_once './LeftNav/leftnav.php';?>
                 <section class="col-9" id="right">

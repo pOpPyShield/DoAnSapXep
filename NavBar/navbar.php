@@ -36,9 +36,9 @@
 
                             if($imgCheck->checkImg($_SESSION['id']) == true) {
                                 $_SESSION['ImgName'] = $imgCheck->getImgName();
-                                echo '<img class="img_user" src="/DoAnSapXep/Uploads/profile'. $imgCheck->getUserID() . $imgCheck->getImgName() . '.' . $imgCheck->getImgType().'">';
+                                echo '<img class="img_user" src="/DoAnSapXep/Home/Image/profile'. $imgCheck->getUserID() . $imgCheck->getImgName() . '.' . $imgCheck->getImgType().'">';
                             } else {
-                                echo '<img class="img_user" src="/DoAnSapXep/Uploads/profile'. $imgCheck->getImgName() .'.'. $imgCheck->getImgType().'">';
+                                echo '<img class="img_user" src="/DoAnSapXep/Home/Image/profile'. $imgCheck->getImgName() .'.'. $imgCheck->getImgType().'">';
                             }
                     ?>
                                 </button>
@@ -76,7 +76,7 @@
                         <li class="nav-item">
                         </li>
                         <li class="nav-item active">
-                            <a class="nav-link" href="/">Trang chủ</a>
+                            <a class="nav-link" href="?action=home">Trang chủ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Sản phẩm</a>

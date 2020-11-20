@@ -44,19 +44,19 @@
         }
 
         public function uploadImg($userID, $namesubmit) {
-            $fileName = $_FILES['file']['name'];
-            $fileSize = $_FILES['file']['size'];
-            $fileType = $_FILES['file']['type'];
-            $fileError = $_FILES['file']['error'];
-            $fileTmpName = $_FILES['file']['tmp_name'];
+            $fileName = $namesubmit['name'];
+            $fileSize = $namesubmit['size'];
+            $fileType = $namesubmit['type'];
+            $fileError = $namesubmit['error'];
+            $fileTmpName = $namesubmit['tmp_name'];
             $fileExt = explode('.', $fileName);
             $fileActualExt = strtolower(end($fileExt));
             $allowed = array('jpg' , 'jpeg' , 'png');
             if(in_array($fileActualExt, $allowed)) {
                 if($fileError == 0) {
-                    if($fileSize<100000) {
+                    if($fileSize<1000000) {
                         $fileNameNew = "profile". $userID .$fileExt[0]."." .$fileActualExt;
-                        $fileDestination = '/DoAnSapXep/Uploads/'.$fileNameNew; 
+                        $fileDestination = 'Image/'.$fileNameNew;
                         move_uploaded_file($fileTmpName, $fileDestination);
                         // Set status
                         $stat = 0;
