@@ -13,11 +13,13 @@
         <script>alert("Upload successs!!!!!!");</script>
 <?php }?>
         <div class="container">
+        <?php include_once '../Home/ScrollToTop/Button.php';?>
             <div class="row">
                 <?php include_once './LeftNav/leftnav.php';?>
                 <section class="col-9" id="right">
                     <?php include_once './SlideBar/slidebar.php'; ?>
                     <?php include_once './SanPhamT11/sanphamt11.php';  ?>    
+                </section>
             </div>
             <div class="main-p">
                 <?php include_once './PcBanChay/pcbanchay.php'; ?>
@@ -43,7 +45,7 @@
                 <?php include_once './EmailEnter/emailenter.php'; ?>
             </div>
 
-            </div>  
+            </div> 
         </div>
 </section>
 <?php include_once '../Footer/footer.php' ?>
