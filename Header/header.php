@@ -20,8 +20,14 @@
     <script src="/DoAnSapXep/Public/Asset/Js/index.js"></script>
     <link rel="stylesheet" type="text/css" href="/DoAnSapXep/Public/Asset/Style/account_log.css">
     <link rel="stylesheet" type="text/css" href="/DoAnSapXep/Public/Asset/Style/account_reg.css">
-    <title>Admin</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!--Favicon--> 
+    <link rel="shortcut icon" type="image/png" href="/DoAnSapXep/Public/Asset/Img/favicon1.png">
+    <title>Computers&Electronics</title>
 </head>
 
 <body>
 <?php include_once '../NavBar/navbar.php'; ?>
+<?php include_once '../Home/ScrollToTop/Button.php';?>

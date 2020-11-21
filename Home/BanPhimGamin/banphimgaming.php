@@ -7,7 +7,7 @@
                     <!-----1-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/ban-phim-1.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/ban-phim-1.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bàn phím Newmen T260</a>
                                 <div class="price-del">
@@ -21,7 +21,7 @@
                     <!-----2-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/ban-phim-2.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/ban-phim-2.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bàn phím Gaming DareU LK145 USB</a>
                                 <div class="price-del">
@@ -35,7 +35,7 @@
                     <!-----3-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/ban-phim-3.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/ban-phim-3.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">HT Mystic</a>
                                 <div class="price-del">
@@ -48,7 +48,7 @@
                     <!-----4-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/ban-phim-4.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/ban-phim-4.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bộ Bàn Phím Chuột Giả Cơ Rapoo V100S</a>
                                 <div class="price-del">
@@ -61,7 +61,7 @@
                     <!-----5-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/ban-phim-5.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/ban-phim-5.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bàn phím Rapoo V500 Alloy</a>
                                 <div class="price-del">
@@ -74,7 +74,7 @@
                     <!-----6-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/ban-phim-6.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/ban-phim-6.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bàn phím cơ Gaming DAREU EK87 - Black (Multi-LED)</a>
                                 <div class="price-del">
@@ -88,7 +88,7 @@
                     <!-----7-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/ban-phim-7.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/ban-phim-7.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bàn phím Fuhlen G87L</a>
                                 <div class="price-del">
@@ -102,7 +102,7 @@
                     <!-----8-->
                     <li class="item-a">
                         <div class="box">
-                            <img src="/doan/Public/Asset/Img/ban-phim-8.jpg" class="model" alt="n-p1">
+                            <img src="/DoAnSapXep/Public/Asset/Img/ban-phim-8.jpg" class="model" alt="n-p1">
                             <div class="detail">
                                 <a href="#" class="name-product">Bàn phím DareU EK169</a>
                                 <div class="price-del">
