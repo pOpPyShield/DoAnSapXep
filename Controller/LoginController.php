@@ -9,16 +9,24 @@
             if(isset($valuePost)) {
                 $name1 = clean($name);
                 $pwd1 = clean($pwd);
-                $object = new Admin();
+                //$object = new Admin();
                 $user = new User();
                 $superadmin = new superAdmin();
-                if($user->login($name1, $pwd1) != false) {
-                    //User Model
-                    if($_SESSION['level'] == 'user' && $_SESSION['is_login'] == true) {
+                if($user->login($name1, $pwd1)) {
+                    $role = $user->getResultQuery('role');
+                    if($role==0) {
                         header('Location: ../Home/?login=success');
-                    }  
+                    } else {
+                        header('Location: ../Home/?action=admin');
+                    }
+                    //User Model
+                    //if($_SESSION['level'] == 'user' && $_SESSION['is_login'] == true) {
+                        //header('Location: ../Home/?login=success');
+                    //}  
                     //Success
-                } elseif($object->login($name, $pwd)) {
+                } else {
+                    header("Location: ../Home/?login=failed");
+                }/*elseif($object->login($name, $pwd)) {
                     //Admin model
                     $UserAdmin = $object->getUserName();
                     $AdminID = $object->getResultQuery("AdminID");
@@ -44,7 +52,7 @@
     
                 } else {
                     header('location: ../Home/?login=failed');
-                } 
+                } */
             }
         }
     }

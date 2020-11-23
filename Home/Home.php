@@ -3,8 +3,9 @@
 <section class="Main">
 <?php if(isset($_GET['login'])=="success") {?>
         <script>alert("Login Success!!!!");</script>
-<?php }?>
-
+<?php } elseif(isset($_GET['login']) == "failed") {?>
+        <script>alert("Login failed");</script>
+<?php } ?>
 <?php if(isset($_GET['logout']) == "success") {?>
         <script>alert("Logout success");</script>
 <?php }?>

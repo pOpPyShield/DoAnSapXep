@@ -52,6 +52,9 @@
             $Upload = new UploadController();
             $Upload->UploadImage($ValueSubmit, $file);
         break;
+        case "admin": 
+            require_once '../Home/Dashboard/Dashboard.php';
+        break;
         default: 
         break;
     }

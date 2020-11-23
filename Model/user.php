@@ -79,8 +79,8 @@
                     //$this->_userID = $this->_result['UserID'];
                     $_SESSION['id'] = $this->_result['UserID'];
                     $_SESSION['UserName'] = $this->_result['UserName'];
-                    $_SESSION['level'] = 'user';
-                    $_SESSION['is_login'] = true;
+                    //$_SESSION['level'] = 'user';
+                    //$_SESSION['is_login'] = true;
                     return true;
                 }
                 return false;
