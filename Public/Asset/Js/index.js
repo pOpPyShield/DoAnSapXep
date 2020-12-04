@@ -1,14 +1,3 @@
-window.onscroll = function() {
-        var prevScrollpos = window.pageYOffset;
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("header").style.top = "0";
-        } else {
-            document.getElementById("header").style.top = "-90px";
-        }
-        prevScrollpos = currentScrollPos;
-    }
-    /****slide product-new */
 $(document).ready(function() {
     $('#autoWidth').lightSlider({
         autoWidth: true,
@@ -41,7 +30,7 @@ $(document).ready(function() {
         autoWidth: true,
         loop: true,
         onSliderLoad: function() {
-            $('#autoWidth3').removeClass('cS-hidden4');
+            $('#autoWidth3').removeClass('cS-hidden3');
         }
     });
 });

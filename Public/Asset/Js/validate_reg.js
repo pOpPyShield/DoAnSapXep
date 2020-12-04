@@ -46,7 +46,7 @@ function validate_reg() {
 
 
     if (name_reg.value.length <= 8 || name_reg.value.length >= 20) {
-        name_reg.style.border = "1.5px solid red";
+        name_reg.style.border = "50px solid red";
         user_error_reg.innerHTML = "Tên đăng nhập phải chứa 8-20 ký tự";
         return false;
     } else {

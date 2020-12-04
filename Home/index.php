@@ -53,7 +53,7 @@
             $Upload->UploadImage($ValueSubmit, $file);
         break;
         case "admin": 
-            require_once '../Home/Dashboard/Dashboard.php';
+            require_once '../Home/Dashboard/Admin/index.php';
         break;
         default: 
         break;
