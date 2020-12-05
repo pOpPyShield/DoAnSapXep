@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 16, 2020 at 05:28 AM
+-- Generation Time: Nov 30, 2020 at 07:26 AM
 -- Server version: 10.4.14-MariaDB
--- PHP Version: 7.4.11
+-- PHP Version: 7.2.34
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -75,8 +75,6 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`AdminID`, `UserName`, `Password`, `email`, `idSuperAdmin`) VALUES
-(5, 'asdafas', '$2y$10$M5DaXXhW5R.LFZrZmZejMO.6U8XvlLNFkjy6NIvbtFBF4zMThOJDW', 'huy288@gmail.com', 1),
-(6, 'asdasda', '$2y$10$56oIM6NAy/.yK.0jI.rI7O7XIh4TZOV1k//HJMhV4.ROMNB098VWO', 'bqhuy.19it4@vku.udn.vn', 1),
 (7, 'asdsadas1123', '$2y$10$z0m6xYcnxkzyE4JjHBrWyOrjqHHNITihin2cKoubXimj/Cfw9JCrK', 'bqhuy.19it4@vku.udn.vn', 1);
 
 -- --------------------------------------------------------
@@ -320,14 +318,21 @@ CREATE TABLE `profileimg` (
 --
 
 INSERT INTO `profileimg` (`id`, `userId`, `Name`, `status`, `Type`) VALUES
-(1, 6, 'test', 0, 'png'),
+(1, 6, 'OIP', 0, 'jpg'),
 (2, 7, 'defaultimg', 1, 'jpg'),
 (3, 9, 'defaultimg', 1, 'jpg'),
 (4, 10, 'OIP', 0, 'jpg'),
 (5, 11, 'defaultimg', 1, 'jpg'),
 (6, 12, 'defaultimg', 1, 'jpg'),
 (7, 13, 'OIP', 0, 'jpg'),
-(8, 14, 'OIP', 0, 'jpg');
+(8, 14, 'OIP', 0, 'jpg'),
+(9, 18, 'test122', 0, 'jpg'),
+(10, 19, 'test122', 0, 'jpg'),
+(11, 20, 'defaultimg', 1, 'jpg'),
+(12, 21, 'defaultimg', 1, 'jpg'),
+(13, 22, 'OIP', 0, 'jpg'),
+(14, 23, 'test122', 0, 'jpg'),
+(15, 24, 'test122', 0, 'jpg');
 
 -- --------------------------------------------------------
 
@@ -374,22 +379,33 @@ CREATE TABLE `user` (
   `Email` varchar(255) NOT NULL,
   `Password` varchar(255) NOT NULL,
   `Address` varchar(1000) NOT NULL,
-  `PhoneNum` varchar(255) NOT NULL
+  `PhoneNum` varchar(255) NOT NULL,
+  `role` tinyint(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `user`
 --
 
-INSERT INTO `user` (`UserID`, `UserName`, `Email`, `Password`, `Address`, `PhoneNum`) VALUES
-(6, 'bentntn261120', 'bqhuy.19it4@vku.udn.vn', '$2y$10$FzYTgjlwms0QBOpUT/VU8utloXZED2kANORTU9VVvh6hhcxwqI2HK', '', ''),
-(7, 'benkaokao26', 'kendarknight26112001@gmail.com', '$2y$10$KzL46mr/9fbJSOzyJhO/muL8PKC6dm3L/SVXPEZRSZiJe27daVoWy', '', ''),
-(9, 'benkaokao2611', 'kendarknight26112001@gmail.com', '$2y$10$SVi5xU.fyUfY/Qnbf6wdsutPENlOCdCATCmtgWTJkCCqOCpveSpmS', '', ''),
-(10, 'benkaokao261120', 'kendarknight26112001@gmail.com', '$2y$10$w4kM8Kivt0XgppHwFcaGOuW38goYDXoV5n1SSE3FIP5FTf02UpR/m', '', ''),
-(11, 'babagaya99', 'kendarknight26112001@gmail.com', '$2y$10$vJvpT4X.KGwmJUZUNi0Y..rG68SmgUwcyUh.Mrrt1BX/wOMD4NJ4y', '', ''),
-(12, 'kankan22112', 'bqhuy.19it4@vku.udn.vn', '$2y$10$yYdsaettaHp0jDlnVEPOD.PUC1XcV6.pe42VxJRt9UNjj6sDwdGdi', '', ''),
-(13, 'zxasq1213', 'kendarknight26112001@gmail.com', '$2y$10$DZl6PQKu0YjNBTWotkAWWeMPJvsNzq/UZq9PehJ3SqQGjqbM3pKt6', '', ''),
-(14, 'asdasdqq12', 'bqhuy.19it4@vku.udn.vn', '$2y$10$.iii6baZeuOAfBX.0hxpe.vqbc48iKBX8V7tmknSXi3n/5YPCr7ky', '', '');
+INSERT INTO `user` (`UserID`, `UserName`, `Email`, `Password`, `Address`, `PhoneNum`, `role`) VALUES
+(6, 'bentntn261120', 'bqhuy.19it4@vku.udn.vn', '$2y$10$FzYTgjlwms0QBOpUT/VU8utloXZED2kANORTU9VVvh6hhcxwqI2HK', '', '', 0),
+(7, 'benkaokao26', 'kendarknight26112001@gmail.com', '$2y$10$KzL46mr/9fbJSOzyJhO/muL8PKC6dm3L/SVXPEZRSZiJe27daVoWy', '', '', 0),
+(9, 'benkaokao2611', 'kendarknight26112001@gmail.com', '$2y$10$SVi5xU.fyUfY/Qnbf6wdsutPENlOCdCATCmtgWTJkCCqOCpveSpmS', '', '', 0),
+(10, 'benkaokao261120', 'kendarknight26112001@gmail.com', '$2y$10$w4kM8Kivt0XgppHwFcaGOuW38goYDXoV5n1SSE3FIP5FTf02UpR/m', '', '', 0),
+(11, 'babagaya99', 'kendarknight26112001@gmail.com', '$2y$10$vJvpT4X.KGwmJUZUNi0Y..rG68SmgUwcyUh.Mrrt1BX/wOMD4NJ4y', '', '', 0),
+(12, 'kankan22112', 'bqhuy.19it4@vku.udn.vn', '$2y$10$yYdsaettaHp0jDlnVEPOD.PUC1XcV6.pe42VxJRt9UNjj6sDwdGdi', '', '', 0),
+(13, 'zxasq1213', 'kendarknight26112001@gmail.com', '$2y$10$DZl6PQKu0YjNBTWotkAWWeMPJvsNzq/UZq9PehJ3SqQGjqbM3pKt6', '', '', 0),
+(14, 'asdasdqq12', 'bqhuy.19it4@vku.udn.vn', '$2y$10$.iii6baZeuOAfBX.0hxpe.vqbc48iKBX8V7tmknSXi3n/5YPCr7ky', '', '', 0),
+(15, 'asdqweqwrq', 'bqhuy.19it4@sict.udn.vn', '$2y$10$L2FKCyKYiNU3b2LCN5kl6uVChARnb0XM7guWPiR5z3i2V6uZdDP6i', '', '', 0),
+(16, 'aasqw1111', 'bqhuy.19it4@vku.udn.vn', '$2y$10$zH9.O..HPJY1D/UHpykZ/.lLVJbb.tIMydmYB3DzQcGljAhKV4mmC', '', '', 0),
+(17, 'asdashhhh3', 'kendarknight26112001@gmail.com', '$2y$10$vfcCQhOiw/34U7VVVeI2LuTvFVp3TcQLSxPe3fTHT.m06JLGoRxF6', '', '', 0),
+(18, 'asdqqweqwfas', 'bqhuy.19it4@vku.udn.vn', '$2y$10$J4fdRv2NCkJTK1d0DasqdeEtZDY8/8z35FOkaJfo6uPqcfLG5sGu6', '', '', 0),
+(19, 'newnew19231', 'bqhuy.19it4@vku.udn.vn', '$2y$10$m2iN0Kzg7liVgUgXIBUIrO6QzK/HIUiGVuZREGiRxARJf1dpP5tnq', '', '', 0),
+(20, 'asdqweqweqrqw', 'kendarknight26112001@gmail.com', '$2y$10$0C.IHUj7vYnxQpcHdFRCcODjZo0.RLU7rxJ.R2rjA8KFP.FivExE.', '', '', 0),
+(21, 'newnewnew99', 'kendarknight26112001@gmail.com', '$2y$10$VudKcdYQbfKRtrVsZIHN.uVkx1j.loPIb/5XCTGFkWfwVvyeiRayS', '', '', 0),
+(22, 'asdvzxxq11', 'kendarknight26112001@gmail.com', '$2y$10$tDS7hnO5YlbUWf37lM9hxeGKEWDJn8b0hQPZsmX05I9G6wcWKv2RS', '', '', 0),
+(23, 'qq111fvvbasa', 'kendarknight26112001@gmail.com', '$2y$10$GYw.oFK6MH3aV1JHpRp8S.cSnkEjmAyy0OZt4V7Nm/3y4D/UB9Cny', '', '', 0),
+(24, 'xcvxazzzaq11', 'kendarknight26112001@gmail.com', '$2y$10$9Vs8dVqh5fexEt5pz9kskufJ21lLlDlD17A5i8d551ejj5rtirJjW', '', '', 1);
 
 --
 -- Indexes for dumped tables
@@ -697,7 +713,7 @@ ALTER TABLE `productdetail`
 -- AUTO_INCREMENT for table `profileimg`
 --
 ALTER TABLE `profileimg`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 
 --
 -- AUTO_INCREMENT for table `pwdreset`
@@ -715,7 +731,7 @@ ALTER TABLE `superadmin`
 -- AUTO_INCREMENT for table `user`
 --
 ALTER TABLE `user`
-  MODIFY `UserID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `UserID` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
 
 --
 -- Constraints for dumped tables
